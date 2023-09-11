@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio :: Contato</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/header.svg" alt="">
+        <hr>
+        <h3>
+            <a href="index.html">Principal</a>&nbsp;::
+            <a href="quemsou.html">Quem Sou</a>&nbsp;::
+            <a href="projetos.html">Projetos</a>&nbsp;::
+            <i><a href="contato.html">Contato</a></i>
+        </h3>
+        <hr>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <ul>
+            <li>Residente em Piracicaba/SP</li>
+            <li>contato@email.com</li>
+            <li>(19) 99999-9999</li>
+            <li><a href="https://www.linkedin/in/fulano">LinkedIn</a></li>
+        </ul>
+        <hr>
+        <h2>Formulário de Contato</h2>
+        <form>
+            <p>
+                <label for="txtNomeCompleto">Nome</label><br>
+                <input type="text" name="txtNomeCompleto" id="txtNomeCompleto" required>
+            </p>
+            <p>
+                <label for="slcAssunto">Assunto</label><br>
+                <select name="Assunto" id="slcAssunto">
+                    <option disabled selected>Selecione o assunto...</option>
+                    <option value="SGT">Sugestão</option>
+                    <option value="RCC">Reclamação</option>
+                    <option value="OCT">Orçamento</option>
+                    <option value="OTS">Outros</option>
+                </select> 
+            </p>
+            <p>
+                <label for="txtMensagem">Mensagem</label><br>
+                <textarea name="Mensagem" id="txtMensagem" cols="30" rows="6"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="Aceito" id="chkAceito">
+                <label for="chkAceito">Deseja receber minha newsletter?</label>
+            </p>
+            <p>
+                <legend>Onde me encontrou?</legend>
+                <input type="radio" name="Plataforma" id="rdYouTube" value="YT">
+                <label for="rdYouTube">YouTube</label><br>
+                <input type="radio" name="Plataforma" id="rdGoogle" value="GG">
+                <label for="rdGoogle">Google</label><br>
+                <input type="radio" name="Plataforma" id="rdBing" value="BG">
+                <label for="rdBing">Bing</label><br>
+                <input type="radio" name="Plataforma" id="rdOutros" value="OT">
+                <label for="rdOutros">Outros</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023</p>
+        <p>
+            <img src="img/ifes.png" alt="Logo da IFES" height="100px">
+        </p>
+    </footer>
+</body>
+
+</html>
